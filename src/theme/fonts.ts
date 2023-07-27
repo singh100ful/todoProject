@@ -38,7 +38,7 @@ export const defaultTexts = {
   bodyBold: {
     ...bold,
     color: Colors.primaryText,
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(18),
     lineHeight: scaleFont(19),
     letterSpacing: 0,
   },
