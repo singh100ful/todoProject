@@ -12,8 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1C40B2D2839C4B849D163583 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF8F1151B3E941828F134D5A /* DMSans-Medium.ttf */; };
+		2A5FEE8EF63940658DD9DAE1 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BDCEB371C004221837EBF95 /* DMSans-MediumItalic.ttf */; };
+		70B287295ADD4B89ADD1659E /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D600CCE039AF4A61B32663E3 /* DMSans-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-todoProject-todoProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-todoProject-todoProjectTests.a */; };
+		7D7D16AF8D384B28858D5937 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C869AF5D4FEA4ADCBEE8C7BB /* DMSans-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B31E2781FC6F4954853385FC /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B67983B892C4622AA4AAAA7 /* DMSans-BoldItalic.ttf */; };
+		D4C6B8730CEF4FC093A314A6 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A930665BF7423AA2519514 /* DMSans-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,7 @@
 		00E356EE1AD99517003FC87E /* todoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* todoProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = todoProjectTests.m; sourceTree = "<group>"; };
+		0B67983B892C4622AA4AAAA7 /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../src/assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* todoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = todoProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = todoProject/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,13 +44,18 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = todoProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = todoProject/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-todoProject-todoProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todoProject-todoProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDCEB371C004221837EBF95 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../src/assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-todoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoProject.debug.xcconfig"; path = "Target Support Files/Pods-todoProject/Pods-todoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-todoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoProject.release.xcconfig"; path = "Target Support Files/Pods-todoProject/Pods-todoProject.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-todoProject-todoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoProject-todoProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-todoProject-todoProjectTests/Pods-todoProject-todoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-todoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = todoProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-todoProject-todoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoProject-todoProjectTests.release.xcconfig"; path = "Target Support Files/Pods-todoProject-todoProjectTests/Pods-todoProject-todoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6A930665BF7423AA2519514 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../src/assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		C869AF5D4FEA4ADCBEE8C7BB /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../src/assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		D600CCE039AF4A61B32663E3 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../src/assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF8F1151B3E941828F134D5A /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../src/assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				A76F3ACFEA1E42759E9DE7D9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +148,20 @@
 				00E356EE1AD99517003FC87E /* todoProjectTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A76F3ACFEA1E42759E9DE7D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C869AF5D4FEA4ADCBEE8C7BB /* DMSans-Bold.ttf */,
+				0B67983B892C4622AA4AAAA7 /* DMSans-BoldItalic.ttf */,
+				A6A930665BF7423AA2519514 /* DMSans-Italic.ttf */,
+				EF8F1151B3E941828F134D5A /* DMSans-Medium.ttf */,
+				1BDCEB371C004221837EBF95 /* DMSans-MediumItalic.ttf */,
+				D600CCE039AF4A61B32663E3 /* DMSans-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +271,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7D7D16AF8D384B28858D5937 /* DMSans-Bold.ttf in Resources */,
+				B31E2781FC6F4954853385FC /* DMSans-BoldItalic.ttf in Resources */,
+				D4C6B8730CEF4FC093A314A6 /* DMSans-Italic.ttf in Resources */,
+				1C40B2D2839C4B849D163583 /* DMSans-Medium.ttf in Resources */,
+				2A5FEE8EF63940658DD9DAE1 /* DMSans-MediumItalic.ttf in Resources */,
+				70B287295ADD4B89ADD1659E /* DMSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
